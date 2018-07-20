@@ -1,4 +1,4 @@
-#Wed Jun 20 11:27:43 BST 2018
-base.0=/home/student/React/ExampleApp/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Fri Jul 20 12:40:50 EEST 2018
+base.0=/home/charis/React/react_native_example_app/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

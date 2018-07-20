@@ -32,10 +32,12 @@ Navigation.registerComponent("ExampleApp.PlaceDetailScreen",
   Provider
 );
 Navigation.registerComponent("ExampleApp.SideDrawer", 
-  () => SideDrawer
+  () => SideDrawer,
+  store,
+  Provider
 );
 
-Navigation.startSingleScreenApp({
+export default () => Navigation.startSingleScreenApp({
   screen: {
     screen: "ExampleApp.AuthScreen",
     title: "Login"
