@@ -69,9 +69,9 @@ class AuthScreen extends Component {
         Dimensions.removeEventListener("change", this.updateStyles);
     }
 
-    componentDidMount() {
-        this.props.onAutoSignin();
-    }
+    // componentDidMount() {
+    //     this.props.onAutoSignin();
+    // }
 
     updateStyles = dims => {
         this.setState({

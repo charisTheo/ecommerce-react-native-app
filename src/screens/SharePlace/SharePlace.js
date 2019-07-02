@@ -14,7 +14,6 @@ import MainText from '../../Components/UI/MainText/MainText';
 import HeadingText from '../../Components/UI/HeadingText/HeadingText';
 import PickImage from '../../Components/PickImage/PickImage';
 import PlaceInput from '../../Components/PlaceInput/PlaceInput';
-import PickLocation from '../../Components/PickLocation/PickLocation';
 import validate from '../../Utility/validation';
 
 class SharePlaceScreen extends Component {
@@ -155,7 +154,6 @@ class SharePlaceScreen extends Component {
                     <HeadingText>Share a place with us!</HeadingText>
                 </MainText>
                 <PickImage onImagePicked={this.imagePickedHandler} ref={ref => (this.imagePicker = ref)} />
-                <PickLocation onLocationPick={this.locationPickedHandler} ref={ref => (this.locationPicker = ref)}/>
                 <PlaceInput 
                   placeData={this.state.controls.placeInput} 
                   onChangeText={this.placeNameChangedHandler}

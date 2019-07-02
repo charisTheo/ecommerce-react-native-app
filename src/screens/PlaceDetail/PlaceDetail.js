@@ -10,10 +10,8 @@ import {
     TouchableOpacity 
 } from 'react-native';
 import { connect } from 'react-redux';
-import MapView from 'react-native-maps';
 
 import Icon from 'react-native-vector-icons/Ionicons';
-import { deletePlace } from '../../store/actions/index';
 
 class PlaceDetail extends Component {
     constructor(props) {
@@ -33,11 +31,6 @@ class PlaceDetail extends Component {
     componentWillUnmount() {
         Dimensions.removeEventListener("change", this.updateStyles);
     }
-
-    placeDeletedHandler = () => {
-        this.props.onDeletePlace(this.props.selectedPlace.key);
-        this.props.navigator.pop();
-    }
     
     render() {
         return (
@@ -49,25 +42,13 @@ class PlaceDetail extends Component {
                   </View>
                   <View style={this.state.viewMode === "landscape" ? styles.landscapeTitleDeleteWrapper : styles.portraitTitleDeleteWrapper}>
                       <Text style={styles.placeName}>{this.props.selectedPlace.name}</Text>
-                      <TouchableOpacity onPress={this.placeDeletedHandler}>
+                      <TouchableOpacity onPress={() => {}}>
                           <View style={styles.deleteButton}>
                               <Icon size={30} name={Platform.OS === "android" ? "md-trash" : "ios-trash"} color="red"/>
                           </View>
                       </TouchableOpacity>
                   </View>
                 </View>
-                <MapView
-                    style={this.state.viewMode === "landscape" ? styles.landscapeMap : styles.portraitMap}
-                    initialRegion={{
-                        ...this.props.selectedPlace.location, 
-                        latitudeDelta: 0.0122,
-                        longitudeDelta: (
-                            Dimensions.get("window").width /
-                            Dimensions.get("window").height
-                          ) * 0.0122
-                    }}>
-                    <MapView.Marker coordinate={this.props.selectedPlace.location} />
-                </MapView>
               </View>
             </ScrollView>
         );
@@ -127,10 +108,4 @@ const styles = StyleSheet.create({
     }
 });
 
-const mapDispatchToProps = dispatch => {
-    return {
-        onDeletePlace: key => dispatch(deletePlace(key))
-    };
-};
-
-export default connect(null, mapDispatchToProps)(PlaceDetail);
+export default PlaceDetail;

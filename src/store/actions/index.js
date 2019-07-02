@@ -1,6 +1,5 @@
 export { 
     addPlace, 
-    deletePlace, 
     getPlaces,
     startAddPlace,
     placeAdded 

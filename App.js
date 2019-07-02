@@ -37,9 +37,10 @@ Navigation.registerComponent("ExampleApp.SideDrawer",
   Provider
 );
 
-export default () => Navigation.startSingleScreenApp({
+export default App = () => Navigation.startSingleScreenApp({
   screen: {
-    screen: "ExampleApp.SharePlaceScreen",
+    // TODO: change to ExampleApp.AuthScreen for authentication
+    screen: "ExampleApp.FindPlaceScreen",
     title: "Share a new place"
   }
 });

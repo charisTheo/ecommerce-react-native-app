@@ -5,68 +5,70 @@ import { uiStartLoading, uiStopLoading } from './index';
 import startMainTabs from '../../screens/MainTabs/startMainTabs';
 import App from '../../../App';
 
-const API_KEY = "AIzaSyDR5vECe3_Wt3Twasy8gypY2_4--ZSJPsQ";
+const API_KEY = "";
 
 export const tryAuth = (authData, authMode) => {
     return dispatch => {
         dispatch(uiStartLoading());
-        let url = `https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=${API_KEY}`;
-        if (authMode === "signup") {
-            url = `https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=${API_KEY}`;
-        }
-        fetch(
-            url, 
-            {
-            method: "POST",
-            body: JSON.stringify({
-                email: authData.email,
-                password: authData.password,
-                returnSecureToken: true
-            }),
-            headers: {
-                "Content-Type": "application/json"
-            }
-        })
-        .catch(err => {
-            console.log(err);
-            alert("Authentication failed :/ ");
-            dispatch(uiStopLoading());
-        })
-        .then(res => res.json())
-        .then(parsedRes => {
-            dispatch(uiStopLoading());
-            if (!parsedRes.idToken) {
-                if (parsedRes.error) {
-                    let errorMessage;
-                    switch (parsedRes.error.message) {
-                        case "EMAIL_EXISTS": {
-                            errorMessage = "The email address is already in use by another account :/";
-                            break;
-                        }
-                        case "OPERATION_NOT_ALLOWED": {
-                            errorMessage = "Password sign-in is disabled for this project :/";
-                            break;
-                        }
-                        case "TOO_MANY_ATTEMPTS_TRY_LATER": {
-                            errorMessage = "We have blocked all requests from this device due to unusual activity. Try again later.";
-                            break;
-                        }
-                        default: {
-                            errorMessage = "Authentication failed :/";
-                            break;
-                        }
-                    }
-                    alert(errorMessage);
-                }
-             } else {
-                dispatch(authStoreToken(
-                    parsedRes.idToken, 
-                    parsedRes.expiresIn, 
-                    parsedRes.refreshToken
-                ));
-                startMainTabs();
-            }
-        });
+        // TODO: remove the line below and uncomment the rest for real authentication using firebase
+        startMainTabs();
+        // let url = `https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=${API_KEY}`;
+        // if (authMode === "signup") {
+        //     url = `https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=${API_KEY}`;
+        // }
+        // fetch(
+        //     url, 
+        //     {
+        //     method: "POST",
+        //     body: JSON.stringify({
+        //         email: authData.email,
+        //         password: authData.password,
+        //         returnSecureToken: true
+        //     }),
+        //     headers: {
+        //         "Content-Type": "application/json"
+        //     }
+        // })
+        // .catch(err => {
+        //     console.log(err);
+        //     alert("Authentication failed :/ ");
+        //     dispatch(uiStopLoading());
+        // })
+        // .then(res => res.json())
+        // .then(parsedRes => {
+        //     dispatch(uiStopLoading());
+        //     if (!parsedRes.idToken) {
+        //         if (parsedRes.error) {
+        //             let errorMessage;
+        //             switch (parsedRes.error.message) {
+        //                 case "EMAIL_EXISTS": {
+        //                     errorMessage = "The email address is already in use by another account :/";
+        //                     break;
+        //                 }
+        //                 case "OPERATION_NOT_ALLOWED": {
+        //                     errorMessage = "Password sign-in is disabled for this project :/";
+        //                     break;
+        //                 }
+        //                 case "TOO_MANY_ATTEMPTS_TRY_LATER": {
+        //                     errorMessage = "We have blocked all requests from this device due to unusual activity. Try again later.";
+        //                     break;
+        //                 }
+        //                 default: {
+        //                     errorMessage = "Authentication failed :/";
+        //                     break;
+        //                 }
+        //             }
+        //             alert(errorMessage);
+        //         }
+        //      } else {
+        //         dispatch(authStoreToken(
+        //             parsedRes.idToken, 
+        //             parsedRes.expiresIn, 
+        //             parsedRes.refreshToken
+        //         ));
+        //         startMainTabs();
+        //     }
+        // });
     };
 };
 
@@ -77,7 +79,7 @@ export const authStoreToken = (token, expiresIn, refreshToken) => {
         dispatch(authSetToken(token, expiryDate));
         // first argument is any unique identifier
         AsyncStorage.setItem("ap:auth:token", token);
-        AsyncStorage.setItem("a p:auth:expiryDate", expiryDate.toString());
+        AsyncStorage.setItem("ap:auth:expiryDate", expiryDate.toString());
         AsyncStorage.setItem("ap:auth:refreshToken", refreshToken);
     };
 };
@@ -91,6 +93,8 @@ export const authSetToken = (token, expiryDate) => {
 };
 
 export const authGetToken = () => {
+    // TODO: remove line 98 for real authentication using firebase    
+    return new Promise.resolve("token");
     return (dispatch, getState) => {
         const promise = new Promise((resolve, reject) => {
             const token = getState().auth.token;
@@ -168,7 +172,7 @@ export const authAutoSignIn = () => {
     return dispatch => {
         dispatch(authGetToken())
         .then(token => {
-            startMainTabs();          
+            startMainTabs();
         })
         .catch(error => console.log("Failed to fetch token!", error));
     };

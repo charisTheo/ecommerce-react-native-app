@@ -1,4 +1,4 @@
-import { REMOVE_PLACE, SET_PLACES, PLACE_ADDED, START_ADD_PLACE } from './actionTypes';
+import { SET_PLACES, PLACE_ADDED, START_ADD_PLACE } from './actionTypes';
 import { uiStartLoading, uiStopLoading, authGetToken } from './index';
 
 export const startAddPlace = () => {
@@ -91,70 +91,6 @@ export const setPlaces = places => {
 
 export const getPlaces = () => {
     return dispatch => {
-        dispatch(authGetToken())
-          .catch(() => {
-              alert("No valid token found :/");
-          })  
-          .then((token) => {
-              return fetch("https://reactapp-1529053160705.firebaseio.com/places.json?auth=" + token);
-          })
-          .then(res => res.json())
-          .then(parsedRes => {
-              const places = [];
-              for (let key in parsedRes) {
-                  places.push({
-                      ...parsedRes[key],
-                      key: key,
-                      image: {
-                          uri: parsedRes[key].image
-                      }
-                  });
-              }
-              dispatch(setPlaces(places));
-          })
-          .catch(err => {
-            alert("something went wrong :/");
-            console.log(err);
-          });
+       
     };
 };
-
-export const deletePlace = (key) => {
-    return dispatch => {
-        dispatch(authGetToken())
-            .catch(() => {
-                alert("No valid token found :/");
-            })    
-            .then(token => {
-                //update store
-                dispatch(removePlace(key));
-                //update firebase
-                return fetch(`https://reactapp-1529053160705.firebaseio.com/places/${key}.json?auth=${token}`, {
-                    method: "DELETE"
-                });
-            })
-            .then(res => {
-                if (res.ok) {
-                    return res.json();
-                } else {
-                    throw(new Error());
-                }
-            })
-            .then(parsedRes => {
-                console.log("Done!");
-            })
-            .catch(err => {
-                //can readd the place if it fails
-                console.log(err);
-                alert("error while deleting the place!");
-            });
-    };
-};
-
-export const removePlace = key => {
-    return {
-        type: REMOVE_PLACE,
-        key: key
-    };
-};
-

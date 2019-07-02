@@ -14,4 +14,4 @@ const RNRedux = () => {
     );
 };
 
-AppRegistry.registerComponent('udemycourse', () => RNRedux);
+AppRegistry.registerComponent('main', () => RNRedux);
