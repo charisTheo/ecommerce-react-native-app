@@ -24,7 +24,7 @@ Below you'll find information about performing common tasks. The most recent ver
 * [Troubleshooting](#troubleshooting)
   * [Networking](#networking)
   * [iOS Simulator won't open](#ios-simulator-wont-open)
-  * [QR Code does not scan](#qr-code-does-not-scan)
+  * [Build Errors](#build-errors)
 
 ## Updating to New Releases
 
@@ -194,8 +194,19 @@ There are a few steps you may want to take to troubleshoot these kinds of errors
 2. Open Xcode's Preferences, the Locations tab, and make sure that the `Command Line Tools` menu option is set to something. Sometimes when the CLI tools are first installed by Homebrew this option is left blank, which can prevent Apple utilities from finding the simulator. Make sure to re-run `npm/yarn run ios` after doing so.
 3. If that doesn't work, open the Simulator, and under the app menu select `Reset Contents and Settings...`. After that has finished, quit the Simulator, and re-run `npm/yarn run ios`.
 
-### QR Code does not scan
+### Build Errors
 
-If you're not able to scan the QR code, make sure your phone's camera is focusing correctly, and also make sure that the contrast on the two colors in your terminal is high enough. For example, WebStorm's default themes may [not have enough contrast](https://github.com/react-community/create-react-native-app/issues/49) for terminal QR codes to be scannable with the system barcode scanners that the Expo app uses.
-
-If this causes problems for you, you may want to try changing your terminal's color theme to have more contrast, or running Create React Native App from a different terminal. You can also manually enter the URL printed by the packager script in the Expo app's search bar to load it manually.
+1. Update Android Studio to 3.2.2
+2. In `./android/local.properties` file change the Android Sdk directory: 
+    * For Mac: `sdk.dir=/Users/<username>/Library/Android/sdk`
+    * For linux: `sdk.dir=/home/<username>/Android/sdk`
+3. Error: Could not get unknown property 'mergeResourcesProvider'
+  * In `gradle-wrapper.properties` file change distributionUrl:
+    * `distributionUrl=https\://services.gradle.org/distributions/gradle-4.10.1-all.zip`
+  * In root `build.gradle` file change gradle classpath: 
+    * `classpath 'com.android.tools.build:gradle:3.3.1’`
+  * Copy `metro.config.js` file from [0.59-stable/template](https://github.com/facebook/react-native/tree/0.59-stable/template) to your project.
+  * Make sure the version of metro in package.json is:
+    * `"metro-react-native-babel-preset": "0.54.1"`
+  * Remove node_modules, and run-android again:
+    * `rf -rf node_modules && npm i --save --save-dev && npm start`
