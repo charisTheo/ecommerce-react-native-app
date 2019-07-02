@@ -1,12 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "reactapp-1529053160705",
-  "private_key_id": "95f27deaaded2f67a3014b117427a09a11c3d888",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCyjsaY6J31NuVP\nXmxRnu6XqIeX9nsCv2KwhsnMOCRQpsycyBe6VSjm/BScXQm8yyE3/BgPh5yr+85X\n/YQ7XxYpSfHXTSc0nRZahhHseLOYJuVP3OhfYzV1i1vD2gND2ElQM/JqkW5/i+H1\nmmX4ZasZs0w3L0UC/nQBEHtXsGTO4c/8+NGdIY1GtGtrg7QcmYGULVd/CcUgy8Jy\nkDu3IKSPZkZG3H7uZHSGYziuW8qIsu15IG+jU83Sy4BC6nz8YX0ofT8dpRd1fFvo\nNYZPW4G8SmB+w2A+fgT7vGqDin7J51iYef7Z8N8HW4wRGYwlhv25alHWrnm75IJT\nHFs56177AgMBAAECggEABaee433ObtMfvP09CfKyFKx6KtZb+/DKs9N49ZY7lDBM\nH5T4p2aGBpaqIm+R3OBD+41ox6kgTZQKa1/0fZrbzU/xsENZwAFPkWtYivghm+pz\nba2N0GOIcGIK9G9llhL182vJvBVB/hkUfV435390xToX6lF9aoRbcSMv/M1xy9lu\nLgW4Cb9XTUwW97BQpXh5QOcXoEMHBMWHkl8qx7Kr/PmYQPvvQs5WxPz0idtMskcF\np2XZIU3FHiOuRTlZZ1sZHcO+p/cGjMxOf1Ywywuvq3bY9KU5kN4kixAYYjEXbx3p\nx6pUk/YKp1/Az2+TXUvsBTZEKD00G4yFO6QYt54qsQKBgQD8Q9cbNRENn/j71LUv\nwaZdxnvI4ks4VpdpjAVC51N40XYyQfHOtLxWcE6TeA6WAkZ01+kCy7pEcyKXTWVf\nFwC2N5zB8A4E0cFQMQwDLbAkcjN57dxxOmGD2qUApOIpoBEZiwz97RYRC8XES0cs\nmm2q0mTRqlqoaZHuktO+mtO2ywKBgQC1M5AZBiT3tZvD+8pX+ltWc4xdihm6Y+KH\nKqksI65fpsz1a5PDMMN9k17FjSfTUhlYkfu5LFloVCbqspdbHGOeEcPiDCQ86BSu\nJDyNhmHTMAAHvxJyrJK9itd3ZvSa80av1zPdjSAMSCGhJJBY5geVvPzSMjQTV01c\nqH/TXBHCkQKBgBqh8ujNbnJ4zCmSKFrVYAIQfWsU8QoOokejX77Te02LF6Zwrd27\n2RJrIvCQwUF3Fgcp8FC6P30QhrtgkW47mHikYGldNa2uk3Eq7HC9dxYx9FtQEHDn\nz/nCsJ7jyXjJjGSc+I8qY6UDECsMI4SC/UcGlVxJVu7mzmBYogBCik2HAoGBAJkP\ngDYTIaD4kCYhh49/VC4Xlsbgw9DVVOF2YMZ/MWls3Y6lm4ByrX9iv9hB3xU7MVvG\nnIqTcsaU5vazevSka2V3fi5wsR+drvJWe6vUise4sR3aAbxKF/3xzQX4OsC0pM4e\nC5qm/h5Bw955o1Dkph2PMURg0epQgXG2h5tDF2FxAoGAP1no/6Db6ZreVzCY6+SE\nQ3AuL8gq4J+iFBM8ffXSysQETBNVx+TV0Zq95hfeomp3OxGX0HspOk3wzJpWDKvQ\nbzAYvoMQvV+0nh9uhpsfF5QY0a6qhd64mcsZOmkXbaIObdAMl6Yo00+Un/nVL+UF\ncdiEBEE7BCmhc7gaDXFuAi8=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-dxtxp@reactapp-1529053160705.iam.gserviceaccount.com",
-  "client_id": "114357366929511419334",
+  "project_id": "",
+  "private_key_id": "",
+  "private_key": "",
+  "client_email": "firebase-adminsdk-dxtxp@<project_id>.iam.gserviceaccount.com",
+  "client_id": "",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://accounts.google.com/o/oauth2/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-dxtxp%40reactapp-1529053160705.iam.gserviceaccount.com"
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-dxtxp%40<project_id>.iam.gserviceaccount.com"
 }

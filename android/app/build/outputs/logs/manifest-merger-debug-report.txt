@@ -1,343 +1,351 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from [:react-native-vector-icons] /home/charis/React/react_native_example_app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
-MERGED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-23:12
-MERGED from [com.facebook.react:react-native:0.55.4] /home/charis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/2874cbebc3f126b7cbd3c80524dc422f/AndroidManifest.xml:2:1-15:12
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e106cf8ee54c55d54f0c4ca4c68c0ec4/AndroidManifest.xml:2:1-14:12
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/charis/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/45dfb1f20aea7d2e08e13dd81e58c624/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:design:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/f7c993b6c461183845bd7f08d315a805/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/69c1e71afd91ab8c38f6421ad779f093/AndroidManifest.xml:17:1-31:12
-MERGED from [:react-native-maps] /home/charis/React/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:16:1-25:12
-MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/86ab7d8b697577fc42b00d39d805c3c9/AndroidManifest.xml:16:1-21:12
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/charis/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/fce4defd87df4ee398bac4eaf31433ad/AndroidManifest.xml:10:1-18:12
-MERGED from [com.facebook.fresco:fresco:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/80afda046b0869ab82fe02cc9428bbad/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/7816c6d0255eb58dd0103a02b92b5d1a/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.1.0] /home/charis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/68a0d0ac9cb527385125c79e56d218e2/AndroidManifest.xml:1:1-4:12
-MERGED from [org.webkit:android-jsc:r174650] /home/charis/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/db03f817fbdbc55d1a3bd2bb2ad739be/AndroidManifest.xml:1:1-3:12
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/fb68643f544942d712936fa251063b86/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f6b9132c0a7bb39c20b40b0cb3b29882/AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:transition:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/bacca32d562be3271988c135f1b1e24e/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/394247cd8edf3be514cf496e231ce196/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/charis/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/4021ee654972662d25626b8652d6537f/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:drawee:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/20112415628d1ca5f60903099a1f0aac/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/c594a9b0813771e148c89a4737883fa1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/2ce7a16f5449be08cde85cc1a9fc8014/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/4ae9bcc40eb3b5a54a16f6885fefdc95/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/b914901a0df032f027452bd04081a7fc/AndroidManifest.xml:17:1-26:12
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/fe2e4a096843c5d9447482c89c949523/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1394f5c49224750fbcf683b5c3e36916/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/3299ba954561f08f898b38d262f27de3/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0400acc1f5e169e20b8c43873678dacc/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/495fa8be3a99312ce9bc8c4c84824bbb/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3dd09fecaaca3c2278e1fb67e7d712ea/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/040cf6a0782bb8b1f084d4a1c4045406/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c98d4c734a2c71a9dcd7605d45ac5c1e/AndroidManifest.xml:17:1-31:12
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:react-native-vector-icons] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.57.2] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-maps] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/bff88fcecb44a3140d060bdef7e67c20/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bcf794e387b97bd843d55d0e4a99b4c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/9d989fa01c4ebcf3ce4afd68f843b02a/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/49583042d5a7f9abd3f85b80a4fc2847/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/824f20450a96e6d27bbbcbf8a940ea41/AndroidManifest.xml:16:1-21:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/45153acde418732af1f3d40128d5912c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/e39de5636da66b8284002cb393eb63e9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/6c6a437b905d20bb3fd7e1052727884b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/1c66828b03021e65148760148beb3cd5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/753bfebb763bd342a51065a5a523e448/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f7a9e74368b5168ec92ddda21647f27c/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/8406e37406c1980f2f85453a975c2485/AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/583fea26300794192a6d7af18152d16e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/38c9c37101fd7635dc21c5e109a14166/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/9c6307688ae2e6bf18fc2d853aa1aa0b/AndroidManifest.xml:16:1-23:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/5302b72f6426f84e225a35015619c8d5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e95c31e9daf52f69c1b57b7ce97a802c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f6f4db8b50b5f7f4c82bd0bf1d0493d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/331a1a0d4762518aec9c9c65c176a6d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/40311b5c651db4be0d00d4094026ea1e/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1920b1ee21b9125f1c78662fa323c25a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/fbb3fa77c1b110abaee5feee4cffb515/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/218c888ae72aef2a40fb4e44dd2a15b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/78856d8c91380d86eb06a5ea084b57a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/497bcf64c5da74b41fc840cf868adf1b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f6a30478199b2ee31350911d1eff30ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/838ff0c13618dc2738ff064a3cff2f15/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b93ed266740c744a0035d0eab0698ba8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/af4dd8ac1c6b396adf03ea568adca24c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/4c0caa55b310fed580d7563cf735581c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/991df7cd4496f3128c472f9d66dd5dfb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/699fcfcb3144cf41e104a73bb990afcf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4812858d5c3b387acf384b29965126f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/74bccdade0393b87b863e4366b7a988e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a39db010f1b1f67145217113ae7f087/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5d2b8581b52262eb1debefc7c557fa5f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/93cdcf9c4d656fa4d675aabb22549633/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cba4d6a5b43e1592f0490e460c6cf386/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f7fc92a26713f37b717b98d9ab395052/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/06ed61114f5d975e30d5b16d2b0f5b91/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3f7bc7963c0fa6f55812b773bf861df1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f56a8cce804106f03d48178b0a5ec280/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f49ef5f07935b09426c9fa297efb85f3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d60447708283e4cae8fd567c80c21fb7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/96bc4f08928c3d8644cf31b6a7a18b5f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c298293750c9d320ec35006f76726ddb/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
 	package
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:2:5-30
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:2:5-30
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [:react-native-maps] /home/charis/React/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-maps] /home/charis/React/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:20:5-66
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] /home/charis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/2874cbebc3f126b7cbd3c80524dc422f/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.55.4] /home/charis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/2874cbebc3f126b7cbd3c80524dc422f/AndroidManifest.xml:11:5-78
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.2] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.2] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:5:22-75
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:6:5-78
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:6:5-78
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.CAMERA
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:7:5-65
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:7:22-62
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:7:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:8:5-80
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:10:5-31:19
-MERGED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
-MERGED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
-MERGED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.55.4] /home/charis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/2874cbebc3f126b7cbd3c80524dc422f/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] /home/charis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/2874cbebc3f126b7cbd3c80524dc422f/AndroidManifest.xml:13:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e106cf8ee54c55d54f0c4ca4c68c0ec4/AndroidManifest.xml:12:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e106cf8ee54c55d54f0c4ca4c68c0ec4/AndroidManifest.xml:12:5-20
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/charis/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/45dfb1f20aea7d2e08e13dd81e58c624/AndroidManifest.xml:11:5-20
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/charis/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/45dfb1f20aea7d2e08e13dd81e58c624/AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:design:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/f7c993b6c461183845bd7f08d315a805/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/f7c993b6c461183845bd7f08d315a805/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/69c1e71afd91ab8c38f6421ad779f093/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/69c1e71afd91ab8c38f6421ad779f093/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/86ab7d8b697577fc42b00d39d805c3c9/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/86ab7d8b697577fc42b00d39d805c3c9/AndroidManifest.xml:18:5-20:19
-MERGED from [com.facebook.soloader:soloader:0.1.0] /home/charis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/68a0d0ac9cb527385125c79e56d218e2/AndroidManifest.xml:3:3-17
-MERGED from [com.facebook.soloader:soloader:0.1.0] /home/charis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/68a0d0ac9cb527385125c79e56d218e2/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /home/charis/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/db03f817fbdbc55d1a3bd2bb2ad739be/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /home/charis/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/db03f817fbdbc55d1a3bd2bb2ad739be/AndroidManifest.xml:2:3-17
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/fb68643f544942d712936fa251063b86/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/fb68643f544942d712936fa251063b86/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f6b9132c0a7bb39c20b40b0cb3b29882/AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f6b9132c0a7bb39c20b40b0cb3b29882/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:transition:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/bacca32d562be3271988c135f1b1e24e/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/bacca32d562be3271988c135f1b1e24e/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/394247cd8edf3be514cf496e231ce196/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/394247cd8edf3be514cf496e231ce196/AndroidManifest.xml:29:5-20
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/charis/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/4021ee654972662d25626b8652d6537f/AndroidManifest.xml:7:5-11:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/charis/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/4021ee654972662d25626b8652d6537f/AndroidManifest.xml:7:5-11:19
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/fe2e4a096843c5d9447482c89c949523/AndroidManifest.xml:12:5-20
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/fe2e4a096843c5d9447482c89c949523/AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1394f5c49224750fbcf683b5c3e36916/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1394f5c49224750fbcf683b5c3e36916/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/3299ba954561f08f898b38d262f27de3/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/3299ba954561f08f898b38d262f27de3/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0400acc1f5e169e20b8c43873678dacc/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0400acc1f5e169e20b8c43873678dacc/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/495fa8be3a99312ce9bc8c4c84824bbb/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/495fa8be3a99312ce9bc8c4c84824bbb/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3dd09fecaaca3c2278e1fb67e7d712ea/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3dd09fecaaca3c2278e1fb67e7d712ea/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/040cf6a0782bb8b1f084d4a1c4045406/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/040cf6a0782bb8b1f084d4a1c4045406/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c98d4c734a2c71a9dcd7605d45ac5c1e/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c98d4c734a2c71a9dcd7605d45ac5c1e/AndroidManifest.xml:29:5-20
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:10:5-31:19
+MERGED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.57.2] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.2] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/AndroidManifest.xml:13:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/bff88fcecb44a3140d060bdef7e67c20/AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/bff88fcecb44a3140d060bdef7e67c20/AndroidManifest.xml:11:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/9d989fa01c4ebcf3ce4afd68f843b02a/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/9d989fa01c4ebcf3ce4afd68f843b02a/AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/824f20450a96e6d27bbbcbf8a940ea41/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/824f20450a96e6d27bbbcbf8a940ea41/AndroidManifest.xml:18:5-20:19
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f7a9e74368b5168ec92ddda21647f27c/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f7a9e74368b5168ec92ddda21647f27c/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/8406e37406c1980f2f85453a975c2485/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/8406e37406c1980f2f85453a975c2485/AndroidManifest.xml:2:3-17
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/583fea26300794192a6d7af18152d16e/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/583fea26300794192a6d7af18152d16e/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/38c9c37101fd7635dc21c5e109a14166/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/38c9c37101fd7635dc21c5e109a14166/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/9c6307688ae2e6bf18fc2d853aa1aa0b/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/9c6307688ae2e6bf18fc2d853aa1aa0b/AndroidManifest.xml:19:5-21:19
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/40311b5c651db4be0d00d4094026ea1e/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/40311b5c651db4be0d00d4094026ea1e/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a39db010f1b1f67145217113ae7f087/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a39db010f1b1f67145217113ae7f087/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5d2b8581b52262eb1debefc7c557fa5f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5d2b8581b52262eb1debefc7c557fa5f/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a39db010f1b1f67145217113ae7f087/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:12:7-39
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:12:7-39
 	android:icon
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:13:7-41
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:13:7-41
 	android:allowBackup
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:14:7-34
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:14:7-34
 	android:theme
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:15:7-38
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:15:7-38
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:11:7-38
 activity#com.udemycourse.MainActivity
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:16:7-25:18
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:16:7-25:18
 	android:label
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:18:9-41
 	android:windowSoftInputMode
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:20:9-51
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:20:9-51
 	android:configChanges
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:19:9-79
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:19:9-79
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:17:9-37
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:17:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:21:9-24:25
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:21:9-24:25
 action#android.intent.action.MAIN
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:22:13-65
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:22:21-62
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:22:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:23:13-73
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:23:13-73
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:23:23-70
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:23:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:26:7-84
-MERGED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
-MERGED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:26:7-84
+MERGED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
+		ADDED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:26:17-81
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:26:17-81
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:27:7-30:9
+ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:27:7-30:9
 	android:value
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:29:9-64
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:29:9-64
 	android:name
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:28:9-54
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:28:9-54
 uses-sdk
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-vector-icons] /home/charis/React/react_native_example_app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/charis/React/react_native_example_app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] /home/charis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/2874cbebc3f126b7cbd3c80524dc422f/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] /home/charis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/2874cbebc3f126b7cbd3c80524dc422f/AndroidManifest.xml:7:5-9:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e106cf8ee54c55d54f0c4ca4c68c0ec4/AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e106cf8ee54c55d54f0c4ca4c68c0ec4/AndroidManifest.xml:8:5-10:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/charis/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/45dfb1f20aea7d2e08e13dd81e58c624/AndroidManifest.xml:7:5-9:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/charis/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/45dfb1f20aea7d2e08e13dd81e58c624/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/f7c993b6c461183845bd7f08d315a805/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/f7c993b6c461183845bd7f08d315a805/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/69c1e71afd91ab8c38f6421ad779f093/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/69c1e71afd91ab8c38f6421ad779f093/AndroidManifest.xml:21:5-23:78
-MERGED from [:react-native-maps] /home/charis/React/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] /home/charis/React/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/86ab7d8b697577fc42b00d39d805c3c9/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/86ab7d8b697577fc42b00d39d805c3c9/AndroidManifest.xml:17:5-42
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/charis/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/fce4defd87df4ee398bac4eaf31433ad/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/charis/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/fce4defd87df4ee398bac4eaf31433ad/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/80afda046b0869ab82fe02cc9428bbad/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/80afda046b0869ab82fe02cc9428bbad/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/7816c6d0255eb58dd0103a02b92b5d1a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/7816c6d0255eb58dd0103a02b92b5d1a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /home/charis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/68a0d0ac9cb527385125c79e56d218e2/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.soloader:soloader:0.1.0] /home/charis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/68a0d0ac9cb527385125c79e56d218e2/AndroidManifest.xml:2:3-70
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/fb68643f544942d712936fa251063b86/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/fb68643f544942d712936fa251063b86/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f6b9132c0a7bb39c20b40b0cb3b29882/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f6b9132c0a7bb39c20b40b0cb3b29882/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:transition:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/bacca32d562be3271988c135f1b1e24e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/bacca32d562be3271988c135f1b1e24e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/394247cd8edf3be514cf496e231ce196/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/394247cd8edf3be514cf496e231ce196/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/charis/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/4021ee654972662d25626b8652d6537f/AndroidManifest.xml:5:5-43
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/charis/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/4021ee654972662d25626b8652d6537f/AndroidManifest.xml:5:5-43
-MERGED from [com.facebook.fresco:drawee:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/20112415628d1ca5f60903099a1f0aac/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/20112415628d1ca5f60903099a1f0aac/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/c594a9b0813771e148c89a4737883fa1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/c594a9b0813771e148c89a4737883fa1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/2ce7a16f5449be08cde85cc1a9fc8014/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/2ce7a16f5449be08cde85cc1a9fc8014/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/4ae9bcc40eb3b5a54a16f6885fefdc95/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/charis/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/4ae9bcc40eb3b5a54a16f6885fefdc95/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/b914901a0df032f027452bd04081a7fc/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/b914901a0df032f027452bd04081a7fc/AndroidManifest.xml:20:5-43
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/fe2e4a096843c5d9447482c89c949523/AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/charis/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/fe2e4a096843c5d9447482c89c949523/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1394f5c49224750fbcf683b5c3e36916/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1394f5c49224750fbcf683b5c3e36916/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/3299ba954561f08f898b38d262f27de3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/3299ba954561f08f898b38d262f27de3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-fragment:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0400acc1f5e169e20b8c43873678dacc/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0400acc1f5e169e20b8c43873678dacc/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/495fa8be3a99312ce9bc8c4c84824bbb/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/495fa8be3a99312ce9bc8c4c84824bbb/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3dd09fecaaca3c2278e1fb67e7d712ea/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3dd09fecaaca3c2278e1fb67e7d712ea/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/040cf6a0782bb8b1f084d4a1c4045406/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/040cf6a0782bb8b1f084d4a1c4045406/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c98d4c734a2c71a9dcd7605d45ac5c1e/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c98d4c734a2c71a9dcd7605d45ac5c1e/AndroidManifest.xml:21:5-23:58
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/f7c993b6c461183845bd7f08d315a805/AndroidManifest.xml:23:9-59
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.2] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.2] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-maps] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/bff88fcecb44a3140d060bdef7e67c20/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/bff88fcecb44a3140d060bdef7e67c20/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bcf794e387b97bd843d55d0e4a99b4c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bcf794e387b97bd843d55d0e4a99b4c8/AndroidManifest.xml:20:5-44
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/9d989fa01c4ebcf3ce4afd68f843b02a/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/9d989fa01c4ebcf3ce4afd68f843b02a/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/49583042d5a7f9abd3f85b80a4fc2847/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/49583042d5a7f9abd3f85b80a4fc2847/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/824f20450a96e6d27bbbcbf8a940ea41/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/824f20450a96e6d27bbbcbf8a940ea41/AndroidManifest.xml:17:5-42
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/45153acde418732af1f3d40128d5912c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/45153acde418732af1f3d40128d5912c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/e39de5636da66b8284002cb393eb63e9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/e39de5636da66b8284002cb393eb63e9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/6c6a437b905d20bb3fd7e1052727884b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/6c6a437b905d20bb3fd7e1052727884b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/1c66828b03021e65148760148beb3cd5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/1c66828b03021e65148760148beb3cd5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/753bfebb763bd342a51065a5a523e448/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/753bfebb763bd342a51065a5a523e448/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f7a9e74368b5168ec92ddda21647f27c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/f7a9e74368b5168ec92ddda21647f27c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/583fea26300794192a6d7af18152d16e/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/583fea26300794192a6d7af18152d16e/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/38c9c37101fd7635dc21c5e109a14166/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/38c9c37101fd7635dc21c5e109a14166/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/9c6307688ae2e6bf18fc2d853aa1aa0b/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/9c6307688ae2e6bf18fc2d853aa1aa0b/AndroidManifest.xml:17:5-42
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/5302b72f6426f84e225a35015619c8d5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/5302b72f6426f84e225a35015619c8d5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e95c31e9daf52f69c1b57b7ce97a802c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e95c31e9daf52f69c1b57b7ce97a802c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f6f4db8b50b5f7f4c82bd0bf1d0493d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f6f4db8b50b5f7f4c82bd0bf1d0493d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/331a1a0d4762518aec9c9c65c176a6d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/331a1a0d4762518aec9c9c65c176a6d2/AndroidManifest.xml:20:5-44
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/40311b5c651db4be0d00d4094026ea1e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/40311b5c651db4be0d00d4094026ea1e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1920b1ee21b9125f1c78662fa323c25a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1920b1ee21b9125f1c78662fa323c25a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/fbb3fa77c1b110abaee5feee4cffb515/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/fbb3fa77c1b110abaee5feee4cffb515/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/218c888ae72aef2a40fb4e44dd2a15b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/218c888ae72aef2a40fb4e44dd2a15b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/78856d8c91380d86eb06a5ea084b57a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/78856d8c91380d86eb06a5ea084b57a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/497bcf64c5da74b41fc840cf868adf1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/497bcf64c5da74b41fc840cf868adf1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f6a30478199b2ee31350911d1eff30ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f6a30478199b2ee31350911d1eff30ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/838ff0c13618dc2738ff064a3cff2f15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/838ff0c13618dc2738ff064a3cff2f15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b93ed266740c744a0035d0eab0698ba8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b93ed266740c744a0035d0eab0698ba8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/af4dd8ac1c6b396adf03ea568adca24c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/af4dd8ac1c6b396adf03ea568adca24c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/4c0caa55b310fed580d7563cf735581c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/4c0caa55b310fed580d7563cf735581c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/991df7cd4496f3128c472f9d66dd5dfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/991df7cd4496f3128c472f9d66dd5dfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/699fcfcb3144cf41e104a73bb990afcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/699fcfcb3144cf41e104a73bb990afcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4812858d5c3b387acf384b29965126f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4812858d5c3b387acf384b29965126f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/74bccdade0393b87b863e4366b7a988e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/74bccdade0393b87b863e4366b7a988e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a39db010f1b1f67145217113ae7f087/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a39db010f1b1f67145217113ae7f087/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5d2b8581b52262eb1debefc7c557fa5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5d2b8581b52262eb1debefc7c557fa5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/93cdcf9c4d656fa4d675aabb22549633/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/93cdcf9c4d656fa4d675aabb22549633/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cba4d6a5b43e1592f0490e460c6cf386/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cba4d6a5b43e1592f0490e460c6cf386/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f7fc92a26713f37b717b98d9ab395052/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f7fc92a26713f37b717b98d9ab395052/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/06ed61114f5d975e30d5b16d2b0f5b91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/06ed61114f5d975e30d5b16d2b0f5b91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3f7bc7963c0fa6f55812b773bf861df1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3f7bc7963c0fa6f55812b773bf861df1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f56a8cce804106f03d48178b0a5ec280/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f56a8cce804106f03d48178b0a5ec280/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f49ef5f07935b09426c9fa297efb85f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f49ef5f07935b09426c9fa297efb85f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d60447708283e4cae8fd567c80c21fb7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d60447708283e4cae8fd567c80c21fb7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/96bc4f08928c3d8644cf31b6a7a18b5f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/96bc4f08928c3d8644cf31b6a7a18b5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c298293750c9d320ec35006f76726ddb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c298293750c9d320ec35006f76726ddb/AndroidManifest.xml:20:5-44
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml
 activity#com.reactnativenavigation.controllers.NavigationActivity
-ADDED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
+ADDED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:86
 	android:configChanges
-		ADDED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-83
+		ADDED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-83
 	android:name
-		ADDED from [:react-native-navigation] /home/charis/React/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-84
+		ADDED from [:react-native-navigation] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-navigation/android/app/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-84
 provider#com.imagepicker.FileProvider
-ADDED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-20:20
+ADDED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-60
+		ADDED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-60
 	android:exported
-		ADDED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-56
+		ADDED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-56
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-19:58
+ADDED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:58
 	android:resource
-		ADDED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:17-55
+		ADDED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-55
 	android:name
-		ADDED from [:react-native-image-picker] /home/charis/React/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:17-67
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/f7c993b6c461183845bd7f08d315a805/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/69c1e71afd91ab8c38f6421ad779f093/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/69c1e71afd91ab8c38f6421ad779f093/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/bacca32d562be3271988c135f1b1e24e/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/bacca32d562be3271988c135f1b1e24e/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/394247cd8edf3be514cf496e231ce196/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/394247cd8edf3be514cf496e231ce196/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/b914901a0df032f027452bd04081a7fc/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/b914901a0df032f027452bd04081a7fc/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1394f5c49224750fbcf683b5c3e36916/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1394f5c49224750fbcf683b5c3e36916/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/3299ba954561f08f898b38d262f27de3/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/3299ba954561f08f898b38d262f27de3/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0400acc1f5e169e20b8c43873678dacc/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/0400acc1f5e169e20b8c43873678dacc/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/495fa8be3a99312ce9bc8c4c84824bbb/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/495fa8be3a99312ce9bc8c4c84824bbb/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3dd09fecaaca3c2278e1fb67e7d712ea/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/3dd09fecaaca3c2278e1fb67e7d712ea/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/040cf6a0782bb8b1f084d4a1c4045406/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/040cf6a0782bb8b1f084d4a1c4045406/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c98d4c734a2c71a9dcd7605d45ac5c1e/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c98d4c734a2c71a9dcd7605d45ac5c1e/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:design:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/f7c993b6c461183845bd7f08d315a805/AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:design:25.3.1] /home/charis/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/f7c993b6c461183845bd7f08d315a805/AndroidManifest.xml:26:9-47
+		ADDED from [:react-native-image-picker] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:react-native-maps] /home/charis/React/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-81
+ADDED from [:react-native-maps] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from [:react-native-maps] /home/charis/React/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:22-78
+		ADDED from [:react-native-maps] /Users/charistheo/dev/react_native_example_app/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:19:22-76
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:19:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ad698ce4bc3036ea71f9a0546404943a/AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/e04e6c139ef717123bb0148a7d097705/AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/86ab7d8b697577fc42b00d39d805c3c9/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/824f20450a96e6d27bbbcbf8a940ea41/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/86ab7d8b697577fc42b00d39d805c3c9/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/824f20450a96e6d27bbbcbf8a940ea41/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/86ab7d8b697577fc42b00d39d805c3c9/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/824f20450a96e6d27bbbcbf8a940ea41/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/86ab7d8b697577fc42b00d39d805c3c9/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/824f20450a96e6d27bbbcbf8a940ea41/AndroidManifest.xml:19:19-85
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/charis/React/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/charistheo/dev/react_native_example_app/android/app/src/main/AndroidManifest.xml:1:1-33:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f6b9132c0a7bb39c20b40b0cb3b29882/AndroidManifest.xml:20:9-121
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/charis/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/4021ee654972662d25626b8652d6537f/AndroidManifest.xml:8:9-10:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/charis/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/4021ee654972662d25626b8652d6537f/AndroidManifest.xml:8:9-10:69
+ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/583fea26300794192a6d7af18152d16e/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/9c6307688ae2e6bf18fc2d853aa1aa0b/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/9c6307688ae2e6bf18fc2d853aa1aa0b/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f6b9132c0a7bb39c20b40b0cb3b29882/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/583fea26300794192a6d7af18152d16e/AndroidManifest.xml:10:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/charis/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f6b9132c0a7bb39c20b40b0cb3b29882/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/583fea26300794192a6d7af18152d16e/AndroidManifest.xml:9:13-58

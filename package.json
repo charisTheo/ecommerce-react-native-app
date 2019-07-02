@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "babel-preset-react-native-stage-0": "^1.0.1",
     "jest": "^24.8.0",
     "jest-react-native": "^18.0.0",
-    "react-test-renderer": "16.3.1"
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.3.1",
+    "schedule": "^0.4.0"
   },
   "scripts": {
     "start": "react-native start",
@@ -18,10 +19,11 @@
     "preset": "react-native"
   },
   "dependencies": {
-    "react": "16.3.1",
-    "react-native": "^0.59.9",
+    "@babel/runtime": "^7.0.0",
+    "react": "16.5.1",
+    "react-native": "0.57.2",
     "react-native-image-picker": "^0.26.10",
-    "react-native-maps": "^0.21.0",
+    "react-native-maps": "^0.24.2",
     "react-native-navigation": "^1.1.471",
     "react-native-vector-icons": "^4.6.0",
     "react-redux": "^5.0.7",
