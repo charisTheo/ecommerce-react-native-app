@@ -1,8 +1,6 @@
 export { 
-    addPlace, 
-    getPlaces,
-    startAddPlace,
-    placeAdded 
-} from './places';
-export { tryAuth, authGetToken, authAutoSignIn, authLogout } from './auth';
+  favouriteButtonPressAction, 
+  wishListButtonPressAction,
+  shoppingCartButtonPressAction
+} from './products';
 export { uiStartLoading, uiStopLoading } from './ui';

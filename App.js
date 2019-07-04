@@ -1,46 +1,48 @@
 import { Navigation } from 'react-native-navigation';
 import { Provider } from 'react-redux';
 
-import AuthScreen from './src/screens/Auth/Auth';
-import SharePlaceScreen from './src/screens/SharePlace/SharePlace';
-import FindPlaceScreen from './src/screens/FindPlace/FindPlace';
-import PlaceDetailScreen from './src/screens/PlaceDetail/PlaceDetail';
+import MainScreen from './src/screens/Main/MainScreen';
+// import FavouritesScreen from './src/screens/Favourites/FavouritesScreen';
+// import WishListScreen from './src/screens/WishList/WishListScreen';
+// import ShoppingCartScreen from './src/screens/ShoppingCart/ShoppingCartScreen';
 import SideDrawer from './src/screens/SideDrawer/SideDrawer';
 
 import configureStore from './src/store/configureStore';
+import startTabs from './src/screens/MainTabs/startMainTabs';
 
 const store = configureStore();
 
-Navigation.registerComponent("ExampleApp.AuthScreen", 
-  () => AuthScreen,
-  store, 
-  Provider
-);
-Navigation.registerComponent("ExampleApp.SharePlaceScreen", 
-  () => SharePlaceScreen,
-  store, 
-  Provider
-);
-Navigation.registerComponent("ExampleApp.FindPlaceScreen", 
-  () => FindPlaceScreen, 
-  store, 
-  Provider
-);
-Navigation.registerComponent("ExampleApp.PlaceDetailScreen", 
-  () => PlaceDetailScreen,
+Navigation.registerComponent("EcommerceApp.MainScreen", 
+  () => MainScreen,
   store,
   Provider
 );
-Navigation.registerComponent("ExampleApp.SideDrawer", 
+// Navigation.registerComponent("EcommerceApp.FavouritesScreen", 
+// () => FavouritesScreen,
+// store,
+// Provider
+// );
+// Navigation.registerComponent("EcommerceApp.WishListScreen", 
+// () => FavouritesScreen,
+// store,
+// Provider
+// );
+// Navigation.registerComponent("EcommerceApp.ShoppingCartScreen", 
+//   () => ShoppingCartScreen,
+//   store,
+//   Provider
+// );
+Navigation.registerComponent("EcommerceApp.SideDrawer", 
   () => SideDrawer,
   store,
   Provider
 );
 
-export default App = () => Navigation.startSingleScreenApp({
-  screen: {
-    // TODO: change to ExampleApp.AuthScreen for authentication
-    screen: "ExampleApp.FindPlaceScreen",
-    title: "Share a new place"
-  }
-});
+// export default App = () => Navigation.startSingleScreenApp({
+//   screen: {
+//     screen: "EcommerceApp.MainScreen",
+//     title: "Products list"
+//   }
+// });
+
+export default App = () => startTabs();

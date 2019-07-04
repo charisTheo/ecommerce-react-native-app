@@ -98,7 +98,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.udemycourse"
+        applicationId "com.charistheo.ecommerce"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -146,6 +146,7 @@ dependencies {
     compile project(':react-native-navigation')
     implementation 'com.google.android.gms:play-services-base:10.0.1'
     compile project(':react-native-image-picker')
+    compile project(':RNMaterialKit')
 }
 
 // Run this once to be able to run the application with BUCK
@@ -156,7 +157,7 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 project.ext.vectoricons = [
-    iconFontNames: [ 'Ionicons.ttf'] // Name of the font files you want to copy
+    iconFontNames: [ 'Ionicons.ttf', 'MaterialIcons.ttf', 'MaterialCommunityIcons.ttf'] // Name of the font files you want to copy
 ]
 
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"

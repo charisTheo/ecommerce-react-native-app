@@ -1,23 +1,38 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Platform, View, Dimensions, StyleSheet, TouchableOpacity } from 'react-native';
-
-import { connect } from 'react-redux';
 import Icon from 'react-native-vector-icons/Ionicons';
-import MainText from '../../Components/UI/MainText/MainText';
-import { authLogout } from '../../store/actions/index';
 
+import MainText from '../../Components/MainText/MainText';
 
-class SideDrawer extends Component {
+class SideDrawer extends React.Component {
+    
+    onButtonPress = (screen) => {
+        // navigate to screen
+        this.props.navigation.navigate(screen)
+    }
+
     render() {
         return (
             <View style={[
                 styles.container, 
                 {width: Dimensions.get("window").width * 0.8}
                 ]}>
-              <TouchableOpacity onPress={this.props.onLogout}>
+              <TouchableOpacity onPress={() => this.onButtonPress('EcommerceApp.FavouritesScreen')}>
                 <View style={styles.drawerItem}>
-                  <Icon style={styles.drawerItemIcon} size={30} name={Platform.OS === "android" ? "md-log-out" : "ios-log-out"} color="black"></Icon>
-                  <MainText>Sign Out</MainText>
+                  <Icon style={styles.drawerItemIcon} size={30} name={Platform.OS === "android" ? "md-heart" : "ios-heart"} color="red"></Icon>
+                  <MainText>Favourites</MainText>
+                </View>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => this.onButtonPress('EcommerceApp.WishListScreen')}>
+                <View style={styles.drawerItem}>
+                  <Icon style={styles.drawerItemIcon} size={30} name={Platform.OS === "android" ? "md-bookmark" : "ios-bookmark"} color="black"></Icon>
+                  <MainText>Wish list</MainText>
+                </View>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => this.onButtonPress('EcommerceApp.ShoppingCartScreen')}>
+                <View style={styles.drawerItem}>
+                  <Icon style={styles.drawerItemIcon} size={30} name={Platform.OS === "android" ? "md-cart" : "ios-cart"} color="green"></Icon>
+                  <MainText>Shopping cart</MainText>
                 </View>
               </TouchableOpacity>
             </View>
@@ -42,10 +57,4 @@ const styles = StyleSheet.create({
     }
 });
 
-const mapDispatchToProps = dispatch => {
-    return {
-        onLogout: () => dispatch(authLogout())
-    }
-}
-
-export default connect(null, mapDispatchToProps)(SideDrawer);
+export default SideDrawer;

@@ -1,14 +1,14 @@
 import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
-import placesReducer from './reducers/places';
+import productsReducer from './reducers/products';
 import uiReducer from './reducers/ui';
-import authReducer from './reducers/auth';
+
+import { products } from './../dummyProductsData.json'
 
 const rootReducer = combineReducers({
-    places: placesReducer,
+    products: productsReducer,
     ui: uiReducer,
-    auth: authReducer
 });
 
 let composeEnhancers = compose;
@@ -18,7 +18,8 @@ if (__DEV__) {
 }
 
 const configureStore = () => {
-    return createStore(rootReducer, composeEnhancers(applyMiddleware(thunk)));
+    // pass initial products data to the redux store state
+    return createStore(rootReducer, {products: {products}}, composeEnhancers(applyMiddleware(thunk)));
 };
 
 export default configureStore;
