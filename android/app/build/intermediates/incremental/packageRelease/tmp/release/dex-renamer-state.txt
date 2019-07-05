@@ -1,0 +1,4 @@
+#Fri Jul 05 16:26:46 BST 2019
+base.0=/Users/charistheo/dev/react_native_example_app/android/app/build/intermediates/dex/release/mergeDexRelease/out
+path.0=classes.dex
+renamed.0=classes.dex
