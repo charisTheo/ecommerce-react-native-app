@@ -21,7 +21,9 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 
 ### Android
 
-* From your Android device download and install the signed APK [here](https://github.com/charisTheo/ecommerce-react-native-app/raw/master/android/app/release/app-release.apk).
+* From your Android device download and install the debug APK [here](https://github.com/charisTheo/ecommerce-react-native-app/raw/master/android/app/build/outputs/apk/debug/app-debug.apk).
+* When prompted on installation tap on "Install anyway".
+* Grant overlay permissions for the app.
 
 ### iOS
 
