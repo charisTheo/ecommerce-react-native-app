@@ -102,7 +102,7 @@ android {
             storePassword '1liketopush'
         }
     }
-    compileSdkVersion 28
+    compileSdkVersion 23
     buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.charistheo.ecommerce"
