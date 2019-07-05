@@ -2,39 +2,50 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 
 ## Table of Contents
 
-* [Updating to New Releases](#updating-to-new-releases)
+* [Download the app](#download-the-app)
+  * [Android](#android)
+  * [iOS](#ios)
+* [Download and install dependencies](#download-and-install-dependencies)
 * [Available Scripts](#available-scripts)
   * [npm start](#npm-start)
   * [npm run ios](#npm-run-ios)
   * [npm run android](#npm-run-android)
   * [npm run eject](#npm-run-eject)
+* [Updating to New Releases](#updating-to-new-releases)
 * [Troubleshooting](#troubleshooting)
   * [Networking](#networking)
   * [iOS Simulator won't open](#ios-simulator-wont-open)
   * [Build Errors](#build-errors)
 
-## Updating to New Releases
+## Download the app
 
-You should only need to update the global installation of `create-react-native-app` very rarely, ideally never.
+### Android
 
-Updating the `react-native-scripts` dependency of your app should be as simple as bumping the version number in `package.json` and reinstalling your project's dependencies.
+* From your Android device download and install the signed APK [here](https://github.com/charisTheo/ecommerce-react-native-app/raw/master/android/app/release/app-release.apk).
 
-Upgrading to a new version of React Native requires updating the `react-native`, `react`, and `expo` package versions, and setting the correct `sdkVersion` in `app.json`. See the [versioning guide](https://github.com/react-community/create-react-native-app/blob/master/VERSIONS.md) for up-to-date information about package version compatibility.
+### iOS
+
+* Run it on your local machine by using [`npm run ios`](#npm-run-ios)
+
+> Instead If you wish to clone the repository and build the project yourself follow the following steps.
+
+## Download and install dependencies
+
+From within your terminal copy and paste the following command. This will make sure you download the repository and install all its dependencies.
+```
+git clone https://github.com/charisTheo/ecommerce-react-native-app.git && cd ecommerce-react-native-app && npm i -—save —-save-dev
+```
 
 ## Available Scripts
 
-If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
-
 ### `npm start`
 
-Runs your app in development mode.
+The you need to run your app in development mode.
 
 Sometimes you may need to reset or clear the React Native packager's cache. To do so, you can pass the `--reset-cache` flag to the start script:
 
 ```
 npm start --reset-cache
-# or
-yarn start --reset-cache
 ```
 
 #### `npm run ios`
@@ -61,6 +72,14 @@ Like `npm start`, but also attempts to open your app on a connected Android devi
 This will start the process of "ejecting" from Create React Native App's build scripts. You'll be asked a couple of questions about how you'd like to build your project.
 
 **Warning:** Running eject is a permanent action (aside from whatever version control system you use). An ejected app will require you to have an [Xcode and/or Android Studio environment](https://facebook.github.io/react-native/docs/getting-started.html) set up.
+
+## Updating to New Releases
+
+You should only need to update the global installation of `create-react-native-app` very rarely, ideally never.
+
+Updating the `react-native-scripts` dependency of your app should be as simple as bumping the version number in `package.json` and reinstalling your project's dependencies.
+
+Upgrading to a new version of React Native requires updating the `react-native`, `react`, and `expo` package versions, and setting the correct `sdkVersion` in `app.json`. See the [versioning guide](https://github.com/react-community/create-react-native-app/blob/master/VERSIONS.md) for up-to-date information about package version compatibility.
 
 ## Troubleshooting
 
