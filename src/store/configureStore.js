@@ -18,7 +18,7 @@ if (__DEV__) {
 }
 
 const configureStore = () => {
-    // pass initial products data to the redux store state
+    // pass initial products dummy data to the redux store
     return createStore(rootReducer, {products: {products}}, composeEnhancers(applyMiddleware(thunk)));
 };
 

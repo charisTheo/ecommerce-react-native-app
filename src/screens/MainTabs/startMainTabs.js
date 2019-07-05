@@ -5,8 +5,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const startTabs = () => {
     Promise.all([
         Icon.getImageSource(Platform.OS === "android" ? "md-menu" : "ios-menu", 30),
-        Icon.getImageSource(Platform.OS === "android" ? "md-cart" : "ios-cart", 30),
-        Icon.getImageSource(Platform.OS === "android" ? "md-heart" : "ios-heart", 30),
+        Icon.getImageSource(Platform.OS === "android" ? "md-basket" : "ios-basket", 30),
         Icon.getImageSource(Platform.OS === "android" ? "md-bookmark" : "ios-bookmark", 30),
         Icon.getImageSource(Platform.OS === "android" ? "md-cart" : "ios-cart", 30)
     ]).then((icons) => {    
@@ -27,54 +26,39 @@ const startTabs = () => {
                         ]
                     }
                 },
-                // {
-                //     screen: 'EcommerceApp.FavouritesScreen',
-                //     label: "Favourites",
-                //     title: "Favourites",
-                //     icon: icons[2],
-                //     navigatorButtons: {
-                //         leftButtons: [
-                //             {
-                //                 icon: icons[0],
-                //                 title: "Menu",
-                //                 id: 'SideDrawerToggle'
-                //             }
-                //         ]
-                //     }
-                // },
-                // {
-                //     screen: 'EcommerceApp.WishListScreen',
-                //     label: "Wish list",
-                //     title: "Wish list",
-                //     icon: icons[3],
-                //     navigatorButtons: {
-                //         leftButtons: [
-                //             {
-                //                 icon: icons[0],
-                //                 title: "Menu",
-                //                 id: 'SideDrawerToggle'
-                //             }
-                //         ]
-                //     }
-                // },
-                // {
-                //     screen: 'EcommerceApp.ShoppingCartScreen',
-                //     label: "Shopping cart",
-                //     title: "Shopping cart",
-                //     icon: icons[4],
-                //     navigatorButtons: {
-                //         leftButtons: [
-                //             {
-                //                 icon: icons[0],
-                //                 title: "Menu",
-                //                 id: 'SideDrawerToggle'                                
-                //             }
-                //         ]
-                //     }
-                // }
+                {
+                    screen: 'EcommerceApp.WishListScreen',
+                    label: "Wish list",
+                    title: "Wish list",
+                    icon: icons[2],
+                    navigatorButtons: {
+                        leftButtons: [
+                            {
+                                icon: icons[0],
+                                title: "Menu",
+                                id: 'SideDrawerToggle'
+                            }
+                        ]
+                    }
+                },
+                {
+                    screen: 'EcommerceApp.ShoppingCartScreen',
+                    label: "Shopping cart",
+                    title: "Shopping cart",
+                    icon: icons[3],
+                    navigatorButtons: {
+                        leftButtons: [
+                            {
+                                icon: icons[0],
+                                title: "Menu",
+                                id: 'SideDrawerToggle'                                
+                            }
+                        ]
+                    }
+                }
             ],
             tabsStyle: {
-                tabBarSelectedButtonColor: "orange"
+                tabBarSelectedButtonColor: "#76ff03"
             },
             drawer: {
                 left: {
@@ -82,7 +66,7 @@ const startTabs = () => {
                 }
             },
             appStyle: {
-                tabBarSelectedButtonColor: "orange"
+                tabBarSelectedButtonColor: "#76ff03"
             },
         });
     });

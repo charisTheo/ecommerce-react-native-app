@@ -1,5 +1,4 @@
 import { 
-  ADD_OR_REMOVE_FROM_FAVOURITES,
   ADD_OR_REMOVE_FROM_WISH_LIST,
   ADD_OR_REMOVE_FROM_SHOPPING_CART
 } from './actionTypes';
@@ -7,25 +6,6 @@ import { uiStartLoading, uiStopLoading } from './ui';
 
 // TODO: pass in the id of the product to only show the spinner 
 // for the given product and not for all of them
-
-export const favouriteButtonPressAction = (id) => {
-  return dispatch => {
-    dispatch(uiStartLoading());
-    
-    // simulating a 500 ms delay of an API call to the database
-    setTimeout(() => {
-      dispatch(addOrRemoveFromFavourites(id));
-      dispatch(uiStopLoading())
-    }, 500);
-  }  
-}
-
-export const addOrRemoveFromFavourites = id => {
-  return {
-    type: ADD_OR_REMOVE_FROM_FAVOURITES,
-    productId: id
-  }
-}
 
 export const wishListButtonPressAction = id => {
   return dispatch => {

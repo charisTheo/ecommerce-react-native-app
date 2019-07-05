@@ -5,7 +5,6 @@
       "name": "iPhone 6",
       "image": "https://cdn.vox-cdn.com/thumbor/M17p2d3gDmdAjgnN7sD2vgd7SDg=/0x0:1024x683/1200x800/filters:focal(431x261:593x423)/cdn.vox-cdn.com/uploads/chorus_image/image/59318659/iphone8red_1024.1523277341.jpg",
       "price": 12.40,
-      "isFavourite": true,
       "isInShoppingCart": false,
       "isInWishList": true
     },
@@ -14,7 +13,6 @@
       "name": "Dell Laptop",
       "image": "http://i.dell.com/sites/csimages/Video_Imagery/all/roll-up-g5-15.png",
       "price": 16.10,
-      "isFavourite": false,
       "isInShoppingCart": true,
       "isInWishList": true
     },
@@ -23,7 +21,6 @@
       "name": "Smart Watch",
       "image": "https://cdn.macrumors.com/article-new/2017/09/productrubyred-800x427.jpg",
       "price": 14.20,
-      "isFavourite": false,
       "isInShoppingCart": false,
       "isInWishList": false
     },
@@ -32,7 +29,6 @@
       "name": "Ear Buds",
       "image": "https://www.imore.com/sites/imore.com/files/styles/large/public/field/image/2019/03/colorware-red.jpg?itok=CNifID_k",
       "price": 10.20,
-      "isFavourite": true,
       "isInShoppingCart": true,
       "isInWishList": false
     }

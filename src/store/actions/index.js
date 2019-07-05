@@ -1,5 +1,4 @@
 export { 
-  favouriteButtonPressAction, 
   wishListButtonPressAction,
   shoppingCartButtonPressAction
 } from './products';

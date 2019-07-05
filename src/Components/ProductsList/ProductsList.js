@@ -1,16 +1,16 @@
 import React from 'react';
-import { FlatList, StyleSheet } from 'react-native';
+import { FlatList } from 'react-native';
 import Product from '../Product/Product';
 
+import styles from './ProductListStyles'
 
 const ProductsList = props => {
-  // console.log("TCL: props", props)
   return (
     <FlatList
       style={styles.listContainer}
       data={props.products}
       scrollEnabled={true}
-      contentContainerStyle={{alignItems: 'center'}}
+      contentContainerStyle={styles.contentContainer}
       keyExtractor={(item, index) => index.toString()}
       renderItem={({item}) => (
         <Product
@@ -26,12 +26,5 @@ const ProductsList = props => {
     />
   );  
 };
-
-const styles = StyleSheet.create({
-  listContainer: {
-    flex: 1,
-    marginVertical: 20,
-  },
-});
 
 export default ProductsList;

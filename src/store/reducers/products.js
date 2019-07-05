@@ -1,34 +1,18 @@
 import { ToastAndroid } from 'react-native';
 
 import { 
-  ADD_OR_REMOVE_FROM_FAVOURITES,
   ADD_OR_REMOVE_FROM_SHOPPING_CART,
   ADD_OR_REMOVE_FROM_WISH_LIST
 } from "../actions/actionTypes";
 
 import dummyProductsData from './../../dummyProductsData.json'
-
+// in case dummy data was not passed to state when initialising the reducer
 const initialState = {
   products: dummyProductsData.products
 }
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-
-    case ADD_OR_REMOVE_FROM_FAVOURITES: 
-      var updatedProducts = state.products.map(product => {
-        if (product.id === action.productId) {
-          product.isFavourite = !product.isFavourite;
-        }
-        return product;
-      });
-      
-      showToast(updatedProducts, action.productId, 'isFavourite', 'favourites')
-
-      return {
-        ...state,
-        products: updatedProducts
-      }
 
     case ADD_OR_REMOVE_FROM_WISH_LIST: 
       var updatedProducts = state.products.map(product => {
@@ -39,6 +23,9 @@ const reducer = (state = initialState, action) => {
       });
 
       showToast(updatedProducts, action.productId, 'isInWishList', 'wish list')
+      console.log("reducer[products]: udpated products list. Products in wish list: ", 
+        updatedProducts.filter(product => product.isInWishList)
+      );
 
       return {
         ...state,
@@ -54,7 +41,10 @@ const reducer = (state = initialState, action) => {
       });
 
       showToast(updatedProducts, action.productId, 'isInShoppingCart', 'shopping cart')
-
+      console.log("reducer[products]: udpated products list. Products in shopping cart: ", 
+        updatedProducts.filter(product => product.isInShoppingCart)
+      );
+      
       return {
         ...state,
         products: updatedProducts
@@ -72,8 +62,8 @@ const reducer = (state = initialState, action) => {
  * 
  * @param {Array<Object>} productsArr - the updated products array
  * @param {Number} productId - the id of the product by which the filter is carried out
- * @param {String} propertyToCheck - the boolean property of the product object (ex: isFavourite, isInWishList, etc).
- * @param {String} desc - the list name that is shown to the user within the toast message (ex: favourites, wish list, etc).
+ * @param {String} propertyToCheck - the boolean property of the product object (ex: isInWishList, inInShoppingCart etc).
+ * @param {String} desc - the list name shown to the user within the toast message (ex: wish list, shopping cart etc).
  */
 const showToast = (productsArr, productId, propertyToCheck, desc) => {
   var updatedProduct = productsArr.filter(product => product.id === productId)[0];

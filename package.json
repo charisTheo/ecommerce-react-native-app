@@ -1,9 +1,8 @@
 {
-  "name": "blog-app",
+  "name": "ecommerce-react-native-app",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "expo": "^33.0.7",
     "jest": "^24.8.0",
     "jest-react-native": "^18.0.0",
     "metro-react-native-babel-preset": "^0.54.1",
