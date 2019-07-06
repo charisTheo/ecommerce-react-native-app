@@ -1,5 +1,6 @@
 export { 
   wishListButtonPressAction,
-  shoppingCartButtonPressAction
+  shoppingCartButtonPressAction,
+  clearStateAfterToastAction
 } from './products';
 export { uiStartLoading, uiStopLoading } from './ui';

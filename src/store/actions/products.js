@@ -1,6 +1,7 @@
 import { 
   ADD_OR_REMOVE_FROM_WISH_LIST,
-  ADD_OR_REMOVE_FROM_SHOPPING_CART
+  ADD_OR_REMOVE_FROM_SHOPPING_CART,
+  CLEAR_STATE_AFTER_TOAST
 } from './actionTypes';
 import { uiStartLoading, uiStopLoading } from './ui';
 
@@ -42,5 +43,11 @@ export const addOrRemoveFromShoppingCart = id => {
   return {
     type: ADD_OR_REMOVE_FROM_SHOPPING_CART,
     productId: id
+  }
+}
+
+export const clearStateAfterToastAction = () => {
+  return {
+    type: CLEAR_STATE_AFTER_TOAST
   }
 }

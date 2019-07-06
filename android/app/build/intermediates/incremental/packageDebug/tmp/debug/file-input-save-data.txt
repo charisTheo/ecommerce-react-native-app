@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jul 05 17:58:01 BST 2019
+#Sat Jul 06 10:00:20 BST 2019
 17.baseType=DIRECTORY
 4.path=lib/x86/libfolly_json.so
 25.base=/Users/charistheo/dev/react_native_example_app/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

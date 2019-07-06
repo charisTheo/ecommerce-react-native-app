@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.react:react-native:0.57.2@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/1121961f3f7e4b4579c86a48e5ea06ca/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/72d29d88b40a0d0ddb921fc42eb66779/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/1121961f3f7e4b4579c86a48e5ea06ca/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-0.57.2.aar/1121961f3f7e4b4579c86a48e5ea06ca/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../node_modules/react-native/android/com/facebook/react/react-native/0.57.2/react-native-0.57.2-javadoc.jar!/" />
