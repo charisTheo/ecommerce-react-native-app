@@ -17,6 +17,11 @@ This project was bootstrapped with [Create React Native App](https://github.com/
   * [iOS Simulator won't open](#ios-simulator-wont-open)
   * [Build Errors](#build-errors)
 
+
+<p align="center">
+  <img width=300 src="https://github.com/charisTheo/ecommerce-react-native-app/blob/master/ecommerce-app.gif?raw=true" alt="Demo showing how requesting traffic status works"/>
+</p>
+
 ## Download the app
 
 ### Android
